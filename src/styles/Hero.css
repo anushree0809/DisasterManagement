@@ -1,0 +1,48 @@
+/* Hero.css */
+.hero-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../public/imageh2.png'); /* Set a background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero-content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Slight overlay for better readability */
+    border-radius: 10px;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .hero-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  .signup-button {
+    background-color: #28A745;
+    color: #fff;
+  }
+  
+  .hero-button:hover {
+    opacity: 0.8; /* Slight hover effect */
+  }
+  

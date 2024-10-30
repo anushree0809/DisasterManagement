@@ -1,0 +1,95 @@
+/* Homepage.css */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern font */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Soft background color */
+    color: #333; /* Standard text color */
+  }
+  
+  main {
+    padding: 40px;
+    max-width: 1200px; /* Center content */
+    margin: auto; /* Center the main content */
+  }
+  
+  .about-section,
+  .services-section,
+  .testimonials-section,
+  .cta-section {
+    background: #fff; /* White background for sections */
+    border-radius: 10px; /* Slightly more rounded corners */
+    padding: 30px;
+    margin: 20px 0; /* Margin between sections */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  }
+  
+  .about-section:hover,
+  .services-section:hover,
+  .testimonials-section:hover,
+  .cta-section:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  h2 {
+    color: #007BFF; /* Bright blue for headings */
+    margin-bottom: 15px; /* Space below headings */
+    font-size: 2em; /* Larger heading size */
+  }
+  
+  .service-item {
+    margin: 15px 0; /* Space between services */
+    padding: 20px;
+    background: #e9f5ff; /* Light blue background */
+    border-left: 5px solid #007BFF; /* Accent border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s; /* Smooth background transition */
+  }
+  
+  .service-item:hover {
+    background: #d4eaff; /* Darker blue on hover */
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #555; /* Gray for testimonials */
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 3px solid #007BFF; /* Blue left border for blockquotes */
+  }
+  
+  .cta-section {
+    text-align: center; /* Center text in CTA section */
+  }
+  
+  .cta-button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Larger button text */
+    transition: background-color 0.3s ease;
+    background-color: #28A745; /* Green button */
+    color: #fff; /* White text */
+  }
+  
+  .cta-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  @media (max-width: 768px) {
+    main {
+      padding: 20px; /* Reduce padding on smaller screens */
+    }
+  
+    h2 {
+      font-size: 1.5em; /* Smaller headings on mobile */
+    }
+  
+    .service-item {
+      padding: 15px; /* Reduce padding in service items */
+    }
+  }
+  
