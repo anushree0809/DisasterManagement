@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <div className="hero-content">
-        <h1>Welcome to Our Website</h1>
+        <h1>Welcome to DisasterManagement</h1>
         <div className="hero-buttons">
           <Link to="/login">
             <button className="hero-button login-button">Login</button>
